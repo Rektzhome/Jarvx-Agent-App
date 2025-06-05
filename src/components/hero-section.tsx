@@ -66,9 +66,9 @@ export const HeroSection: React.FC = () => {
           <Typewriter
             options={{
               strings: [
-                'Generator prompt tingkat lanjut untuk <span class="text-primary font-medium">profesional kreatif</span>',
-                'Rekayasa prompt AI untuk <span class="text-primary font-medium">hasil yang optimal</span>',
-                'Solusi prompt terbaik untuk <span class="text-primary font-medium">kreator konten</span>'
+                'Generator prompt tingkat lanjut untuk profesional kreatif',
+                'Rekayasa prompt AI untuk hasil yang optimal',
+                'Solusi prompt terbaik untuk kreator konten'
               ],
               autoStart: true,
               loop: true,
@@ -77,7 +77,6 @@ export const HeroSection: React.FC = () => {
               cursor: '',
               wrapperClassName: 'typewriter-wrapper',
               cursorClassName: 'typewriter-cursor',
-              html: true,
             }}
           />
         </motion.div>

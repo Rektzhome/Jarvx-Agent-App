@@ -1113,75 +1113,75 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="portrait" value="portrait">Potret Manusia</SelectItem>
-                  <SelectItem key="landscape" value="landscape">Pemandangan Alam</SelectItem>
-                  <SelectItem key="sketch" value="sketch">Sketsa</SelectItem>
-                  <SelectItem key="illustration" value="illustration">Ilustrasi (Manual & Digital)</SelectItem>
-                  <SelectItem key="oil_painting" value="oil_painting">Lukisan Cat Minyak</SelectItem>
-                  <SelectItem key="acrylic_painting" value="acrylic_painting">Lukisan Akrilik</SelectItem>
-                  <SelectItem key="watercolor" value="watercolor">Lukisan Cat Air</SelectItem>
-                  <SelectItem key="pencil_drawing" value="pencil_drawing">Gambar Pensil</SelectItem>
-                  <SelectItem key="charcoal_drawing" value="charcoal_drawing">Gambar Arang</SelectItem>
-                  <SelectItem key="vector" value="vector">Vektor</SelectItem>
-                  <SelectItem key="pixel_art" value="pixel_art">Pixel Art</SelectItem>
-                  <SelectItem key="photography" value="photography">Fotografi</SelectItem>
-                  <SelectItem key="collage" value="collage">Kolase</SelectItem>
-                  <SelectItem key="montage" value="montage">Montase</SelectItem>
-                  <SelectItem key="silhouette" value="silhouette">Siluet</SelectItem>
-                  <SelectItem key="typography" value="typography">Tipografi / Lettering</SelectItem>
-                  <SelectItem key="flat_design" value="flat_design">Flat Design</SelectItem>
-                  <SelectItem key="realism" value="realism">Realisme</SelectItem>
-                  <SelectItem key="surrealism" value="surrealism">Surrealisme</SelectItem>
-                  <SelectItem key="abstract" value="abstract">Abstrak</SelectItem>
-                  <SelectItem key="doodle_art" value="doodle_art">Doodle Art</SelectItem>
-                  <SelectItem key="line_art" value="line_art">Line Art</SelectItem>
-                  <SelectItem key="infographic" value="infographic">Infografis</SelectItem>
-                  <SelectItem key="diagram" value="diagram">Diagram (Flowchart, Organigram)</SelectItem>
-                  <SelectItem key="map" value="map">Peta</SelectItem>
-                  <SelectItem key="floor_plan" value="floor_plan">Denah / Tata Ruang</SelectItem>
-                  <SelectItem key="blueprint" value="blueprint">Blueprint</SelectItem>
-                  <SelectItem key="mind_map" value="mind_map">Mind Map</SelectItem>
-                  <SelectItem key="medical_illustration" value="medical_illustration">Ilustrasi Medis / Anatomi</SelectItem>
-                  <SelectItem key="technical_drawing" value="technical_drawing">Gambar Teknik Mesin / Sipil</SelectItem>
-                  <SelectItem key="manual_illustration" value="manual_illustration">Gambar Petunjuk (Manual)</SelectItem>
-                  <SelectItem key="data_visualization" value="data_visualization">Visualisasi Data</SelectItem>
-                  <SelectItem key="traditional_media" value="traditional_media">Media Tradisional</SelectItem>
-                  <SelectItem key="digital_media" value="digital_media">Media Digital</SelectItem>
-                  <SelectItem key="3d_digital" value="3d_digital">Gambar 3D Digital</SelectItem>
-                  <SelectItem key="ai_generated" value="ai_generated">Gambar AI-Generated</SelectItem>
-                  <SelectItem key="fine_art" value="fine_art">Gambar Seni Rupa</SelectItem>
-                  <SelectItem key="entertainment" value="entertainment">Gambar Hiburan / Estetika</SelectItem>
-                  <SelectItem key="promotional" value="promotional">Gambar Promosi / Iklan</SelectItem>
-                  <SelectItem key="educational" value="educational">Gambar Edukasi</SelectItem>
-                  <SelectItem key="branding" value="branding">Branding (Logo, Maskot)</SelectItem>
-                  <SelectItem key="product_illustration" value="product_illustration">Ilustrasi Produk</SelectItem>
-                  <SelectItem key="comic" value="comic">Komik</SelectItem>
-                  <SelectItem key="caricature" value="caricature">Karikatur</SelectItem>
-                  <SelectItem key="cartoon" value="cartoon">Kartun</SelectItem>
-                  <SelectItem key="manga" value="manga">Manga</SelectItem>
-                  <SelectItem key="webtoon" value="webtoon">Webtoon</SelectItem>
-                  <SelectItem key="storyboard" value="storyboard">Storyboard</SelectItem>
-                  <SelectItem key="poster" value="poster">Poster</SelectItem>
-                  <SelectItem key="brochure" value="brochure">Brosur / Flyer</SelectItem>
-                  <SelectItem key="banner" value="banner">Banner / Spanduk</SelectItem>
-                  <SelectItem key="product_mockup" value="product_mockup">Mockup Produk</SelectItem>
-                  <SelectItem key="ui_design" value="ui_design">Desain UI</SelectItem>
-                  <SelectItem key="youtube_thumbnail" value="youtube_thumbnail">Thumbnail YouTube</SelectItem>
-                  <SelectItem key="cover" value="cover">Cover Buku / Album</SelectItem>
-                  <SelectItem key="psychology_image" value="psychology_image">Gambar Psikologi</SelectItem>
-                  <SelectItem key="architecture" value="architecture">Gambar Arsitektur</SelectItem>
-                  <SelectItem key="3d_rendering" value="3d_rendering">Rendering 3D Arsitektur</SelectItem>
-                  <SelectItem key="game_sprite" value="game_sprite">Sprite (Game)</SelectItem>
-                  <SelectItem key="character_design" value="character_design">Karakter (Character Design)</SelectItem>
-                  <SelectItem key="background" value="background">Background (Latar)</SelectItem>
-                  <SelectItem key="concept_art" value="concept_art">Concept Art</SelectItem>
-                  <SelectItem key="matte_painting" value="matte_painting">Matte Painting</SelectItem>
-                  <SelectItem key="ai_enhanced" value="ai_enhanced">AI Photo Enhancement</SelectItem>
-                  <SelectItem key="deepfake" value="deepfake">Deepfake Image</SelectItem>
-                  <SelectItem key="neural_style" value="neural_style">Neural Style Transfer</SelectItem>
-                  <SelectItem key="prompt_based" value="prompt_based">Prompt-based AI Image</SelectItem>
-                  <SelectItem key="ai_storyboard" value="ai_storyboard">AI-Generated Storyboard</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="portrait">Potret Manusia</SelectItem>
+                  <SelectItem key="landscape">Pemandangan Alam</SelectItem>
+                  <SelectItem key="sketch">Sketsa</SelectItem>
+                  <SelectItem key="illustration">Ilustrasi (Manual & Digital)</SelectItem>
+                  <SelectItem key="oil_painting">Lukisan Cat Minyak</SelectItem>
+                  <SelectItem key="acrylic_painting">Lukisan Akrilik</SelectItem>
+                  <SelectItem key="watercolor">Lukisan Cat Air</SelectItem>
+                  <SelectItem key="pencil_drawing">Gambar Pensil</SelectItem>
+                  <SelectItem key="charcoal_drawing">Gambar Arang</SelectItem>
+                  <SelectItem key="vector">Vektor</SelectItem>
+                  <SelectItem key="pixel_art">Pixel Art</SelectItem>
+                  <SelectItem key="photography">Fotografi</SelectItem>
+                  <SelectItem key="collage">Kolase</SelectItem>
+                  <SelectItem key="montage">Montase</SelectItem>
+                  <SelectItem key="silhouette">Siluet</SelectItem>
+                  <SelectItem key="typography">Tipografi / Lettering</SelectItem>
+                  <SelectItem key="flat_design">Flat Design</SelectItem>
+                  <SelectItem key="realism">Realisme</SelectItem>
+                  <SelectItem key="surrealism">Surrealisme</SelectItem>
+                  <SelectItem key="abstract">Abstrak</SelectItem>
+                  <SelectItem key="doodle_art">Doodle Art</SelectItem>
+                  <SelectItem key="line_art">Line Art</SelectItem>
+                  <SelectItem key="infographic">Infografis</SelectItem>
+                  <SelectItem key="diagram">Diagram (Flowchart, Organigram)</SelectItem>
+                  <SelectItem key="map">Peta</SelectItem>
+                  <SelectItem key="floor_plan">Denah / Tata Ruang</SelectItem>
+                  <SelectItem key="blueprint">Blueprint</SelectItem>
+                  <SelectItem key="mind_map">Mind Map</SelectItem>
+                  <SelectItem key="medical_illustration">Ilustrasi Medis / Anatomi</SelectItem>
+                  <SelectItem key="technical_drawing">Gambar Teknik Mesin / Sipil</SelectItem>
+                  <SelectItem key="manual_illustration">Gambar Petunjuk (Manual)</SelectItem>
+                  <SelectItem key="data_visualization">Visualisasi Data</SelectItem>
+                  <SelectItem key="traditional_media">Media Tradisional</SelectItem>
+                  <SelectItem key="digital_media">Media Digital</SelectItem>
+                  <SelectItem key="3d_digital">Gambar 3D Digital</SelectItem>
+                  <SelectItem key="ai_generated">Gambar AI-Generated</SelectItem>
+                  <SelectItem key="fine_art">Gambar Seni Rupa</SelectItem>
+                  <SelectItem key="entertainment">Gambar Hiburan / Estetika</SelectItem>
+                  <SelectItem key="promotional">Gambar Promosi / Iklan</SelectItem>
+                  <SelectItem key="educational">Gambar Edukasi</SelectItem>
+                  <SelectItem key="branding">Branding (Logo, Maskot)</SelectItem>
+                  <SelectItem key="product_illustration">Ilustrasi Produk</SelectItem>
+                  <SelectItem key="comic">Komik</SelectItem>
+                  <SelectItem key="caricature">Karikatur</SelectItem>
+                  <SelectItem key="cartoon">Kartun</SelectItem>
+                  <SelectItem key="manga">Manga</SelectItem>
+                  <SelectItem key="webtoon">Webtoon</SelectItem>
+                  <SelectItem key="storyboard">Storyboard</SelectItem>
+                  <SelectItem key="poster">Poster</SelectItem>
+                  <SelectItem key="brochure">Brosur / Flyer</SelectItem>
+                  <SelectItem key="banner">Banner / Spanduk</SelectItem>
+                  <SelectItem key="product_mockup">Mockup Produk</SelectItem>
+                  <SelectItem key="ui_design">Desain UI</SelectItem>
+                  <SelectItem key="youtube_thumbnail">Thumbnail YouTube</SelectItem>
+                  <SelectItem key="cover">Cover Buku / Album</SelectItem>
+                  <SelectItem key="psychology_image">Gambar Psikologi</SelectItem>
+                  <SelectItem key="architecture">Gambar Arsitektur</SelectItem>
+                  <SelectItem key="3d_rendering">Rendering 3D Arsitektur</SelectItem>
+                  <SelectItem key="game_sprite">Sprite (Game)</SelectItem>
+                  <SelectItem key="character_design">Karakter (Character Design)</SelectItem>
+                  <SelectItem key="background">Background (Latar)</SelectItem>
+                  <SelectItem key="concept_art">Concept Art</SelectItem>
+                  <SelectItem key="matte_painting">Matte Painting</SelectItem>
+                  <SelectItem key="ai_enhanced">AI Photo Enhancement</SelectItem>
+                  <SelectItem key="deepfake">Deepfake Image</SelectItem>
+                  <SelectItem key="neural_style">Neural Style Transfer</SelectItem>
+                  <SelectItem key="prompt_based">Prompt-based AI Image</SelectItem>
+                  <SelectItem key="ai_storyboard">AI-Generated Storyboard</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan jenis gambar manual"
@@ -1190,7 +1190,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.imageType}
                   onValueChange={(value) => handleManualInputChange("imageType", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
               
@@ -1203,63 +1203,63 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="digital_art" value="digital_art">Seni Digital</SelectItem>
-                  <SelectItem key="realistic" value="realistic">Realistis</SelectItem>
-                  <SelectItem key="impressionism" value="impressionism">Impresionisme</SelectItem>
-                  <SelectItem key="expressionism" value="expressionism">Ekspresionisme</SelectItem>
-                  <SelectItem key="cubism" value="cubism">Kubisme</SelectItem>
-                  <SelectItem key="surrealism" value="surrealism">Surealisme</SelectItem>
-                  <SelectItem key="abstract" value="abstract">Abstrak</SelectItem>
-                  <SelectItem key="baroque" value="baroque">Barok</SelectItem>
-                  <SelectItem key="renaissance" value="renaissance">Renaisans</SelectItem>
-                  <SelectItem key="pop_art" value="pop_art">Pop Art</SelectItem>
-                  <SelectItem key="minimalism" value="minimalism">Minimalisme</SelectItem>
-                  <SelectItem key="romanticism" value="romanticism">Romantisisme</SelectItem>
-                  <SelectItem key="art_nouveau" value="art_nouveau">Art Nouveau</SelectItem>
-                  <SelectItem key="fauvism" value="fauvism">Fauvisme</SelectItem>
-                  <SelectItem key="dadaism" value="dadaism">Dadaisme</SelectItem>
-                  <SelectItem key="constructivism" value="constructivism">Konstruktivisme</SelectItem>
-                  <SelectItem key="futurism" value="futurism">Futurisme</SelectItem>
-                  <SelectItem key="symbolism" value="symbolism">Simbolisme</SelectItem>
-                  <SelectItem key="neoclassical" value="neoclassical">Neoklasik</SelectItem>
-                  <SelectItem key="gothic" value="gothic">Gotik</SelectItem>
-                  <SelectItem key="post_impressionism" value="post_impressionism">Post-Impresionisme</SelectItem>
-                  <SelectItem key="op_art" value="op_art">Op Art</SelectItem>
-                  <SelectItem key="color_field" value="color_field">Color Field</SelectItem>
-                  <SelectItem key="photorealism" value="photorealism">Fotorealisme</SelectItem>
-                  <SelectItem key="brutalism" value="brutalism">Brutalisme</SelectItem>
-                  <SelectItem key="bauhaus" value="bauhaus">Bauhaus</SelectItem>
-                  <SelectItem key="rococo" value="rococo">Rokoko</SelectItem>
-                  <SelectItem key="suprematism" value="suprematism">Suprematisme</SelectItem>
-                  <SelectItem key="art_deco" value="art_deco">Art Deco</SelectItem>
-                  <SelectItem key="tonalism" value="tonalism">Tonalisme</SelectItem>
-                  <SelectItem key="luminism" value="luminism">Luminisme</SelectItem>
-                  <SelectItem key="contemporary_art" value="contemporary_art">Seni Kontemporer</SelectItem>
-                  <SelectItem key="popular_art" value="popular_art">Seni Populer</SelectItem>
-                  <SelectItem key="street_art" value="street_art">Seni Jalanan (Street Art)</SelectItem>
-                  <SelectItem key="neo_expressionism" value="neo_expressionism">Neo-ekspresionisme</SelectItem>
-                  <SelectItem key="kinetic_art" value="kinetic_art">Kinetik</SelectItem>
-                  <SelectItem key="installation_art" value="installation_art">Instalasi</SelectItem>
-                  <SelectItem key="performance_art" value="performance_art">Performance Art</SelectItem>
-                  <SelectItem key="graffiti" value="graffiti">Graffiti</SelectItem>
-                  <SelectItem key="hyperrealism" value="hyperrealism">Hyperrealisme</SelectItem>
-                  <SelectItem key="cartoon" value="cartoon">Kartun</SelectItem>
-                  <SelectItem key="anime" value="anime">Anime</SelectItem>
-                  <SelectItem key="manga" value="manga">Manga</SelectItem>
-                  <SelectItem key="pixel_art" value="pixel_art">Seni Piksel</SelectItem>
-                  <SelectItem key="3d_render" value="3d_render">Render 3D</SelectItem>
-                  <SelectItem key="vector" value="vector">Vektor</SelectItem>
-                  <SelectItem key="watercolor" value="watercolor">Cat Air</SelectItem>
-                  <SelectItem key="oil_painting" value="oil_painting">Lukisan Minyak</SelectItem>
-                  <SelectItem key="pencil_sketch" value="pencil_sketch">Sketsa Pensil</SelectItem>
-                  <SelectItem key="charcoal" value="charcoal">Sketsa Arang</SelectItem>
-                  <SelectItem key="flat_design" value="flat_design">Desain Datar</SelectItem>
-                  <SelectItem key="isometric" value="isometric">Isometrik</SelectItem>
-                  <SelectItem key="low_poly" value="low_poly">Low Poly</SelectItem>
-                  <SelectItem key="cyberpunk" value="cyberpunk">Cyberpunk</SelectItem>
-                  <SelectItem key="steampunk" value="steampunk">Steampunk</SelectItem>
-                  <SelectItem key="vaporwave" value="vaporwave">Gaya Vaporwave</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="digital_art">Seni Digital</SelectItem>
+                  <SelectItem key="realistic">Realistis</SelectItem>
+                  <SelectItem key="impressionism">Impresionisme</SelectItem>
+                  <SelectItem key="expressionism">Ekspresionisme</SelectItem>
+                  <SelectItem key="cubism">Kubisme</SelectItem>
+                  <SelectItem key="surrealism">Surealisme</SelectItem>
+                  <SelectItem key="abstract">Abstrak</SelectItem>
+                  <SelectItem key="baroque">Barok</SelectItem>
+                  <SelectItem key="renaissance">Renaisans</SelectItem>
+                  <SelectItem key="pop_art">Pop Art</SelectItem>
+                  <SelectItem key="minimalism">Minimalisme</SelectItem>
+                  <SelectItem key="romanticism">Romantisisme</SelectItem>
+                  <SelectItem key="art_nouveau">Art Nouveau</SelectItem>
+                  <SelectItem key="fauvism">Fauvisme</SelectItem>
+                  <SelectItem key="dadaism">Dadaisme</SelectItem>
+                  <SelectItem key="constructivism">Konstruktivisme</SelectItem>
+                  <SelectItem key="futurism">Futurisme</SelectItem>
+                  <SelectItem key="symbolism">Simbolisme</SelectItem>
+                  <SelectItem key="neoclassical">Neoklasik</SelectItem>
+                  <SelectItem key="gothic">Gotik</SelectItem>
+                  <SelectItem key="post_impressionism">Post-Impresionisme</SelectItem>
+                  <SelectItem key="op_art">Op Art</SelectItem>
+                  <SelectItem key="color_field">Color Field</SelectItem>
+                  <SelectItem key="photorealism">Fotorealisme</SelectItem>
+                  <SelectItem key="brutalism">Brutalisme</SelectItem>
+                  <SelectItem key="bauhaus">Bauhaus</SelectItem>
+                  <SelectItem key="rococo">Rokoko</SelectItem>
+                  <SelectItem key="suprematism">Suprematisme</SelectItem>
+                  <SelectItem key="art_deco">Art Deco</SelectItem>
+                  <SelectItem key="tonalism">Tonalisme</SelectItem>
+                  <SelectItem key="luminism">Luminisme</SelectItem>
+                  <SelectItem key="contemporary_art">Seni Kontemporer</SelectItem>
+                  <SelectItem key="popular_art">Seni Populer</SelectItem>
+                  <SelectItem key="street_art">Seni Jalanan (Street Art)</SelectItem>
+                  <SelectItem key="neo_expressionism">Neo-ekspresionisme</SelectItem>
+                  <SelectItem key="kinetic_art">Kinetik</SelectItem>
+                  <SelectItem key="installation_art">Instalasi</SelectItem>
+                  <SelectItem key="performance_art">Performance Art</SelectItem>
+                  <SelectItem key="graffiti">Graffiti</SelectItem>
+                  <SelectItem key="hyperrealism">Hyperrealisme</SelectItem>
+                  <SelectItem key="cartoon">Kartun</SelectItem>
+                  <SelectItem key="anime">Anime</SelectItem>
+                  <SelectItem key="manga">Manga</SelectItem>
+                  <SelectItem key="pixel_art">Seni Piksel</SelectItem>
+                  <SelectItem key="3d_render">Render 3D</SelectItem>
+                  <SelectItem key="vector">Vektor</SelectItem>
+                  <SelectItem key="watercolor">Cat Air</SelectItem>
+                  <SelectItem key="oil_painting">Lukisan Minyak</SelectItem>
+                  <SelectItem key="pencil_sketch">Sketsa Pensil</SelectItem>
+                  <SelectItem key="charcoal">Sketsa Arang</SelectItem>
+                  <SelectItem key="flat_design">Desain Datar</SelectItem>
+                  <SelectItem key="isometric">Isometrik</SelectItem>
+                  <SelectItem key="low_poly">Low Poly</SelectItem>
+                  <SelectItem key="cyberpunk">Cyberpunk</SelectItem>
+                  <SelectItem key="steampunk">Steampunk</SelectItem>
+                  <SelectItem key="vaporwave">Gaya Vaporwave</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan gaya manual"
@@ -1268,7 +1268,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.style}
                   onValueChange={(value) => handleManualInputChange("style", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
             </div>
@@ -1283,15 +1283,15 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="1:1" value="1:1">1:1 (Persegi)</SelectItem>
-                  <SelectItem key="16:9" value="16:9">16:9 (Lanskap)</SelectItem>
-                  <SelectItem key="9:16" value="9:16">9:16 (Potret)</SelectItem>
-                  <SelectItem key="4:3" value="4:3">4:3 (Tradisional)</SelectItem>
-                  <SelectItem key="3:4" value="3:4">3:4 (Potret Tradisional)</SelectItem>
-                  <SelectItem key="21:9" value="21:9">21:9 (Ultrawide)</SelectItem>
-                  <SelectItem key="3:2" value="3:2">3:2 (Fotografi)</SelectItem>
-                  <SelectItem key="2:3" value="2:3">2:3 (Potret Fotografi)</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="1:1">1:1 (Persegi)</SelectItem>
+                  <SelectItem key="16:9">16:9 (Lanskap)</SelectItem>
+                  <SelectItem key="9:16">9:16 (Potret)</SelectItem>
+                  <SelectItem key="4:3">4:3 (Tradisional)</SelectItem>
+                  <SelectItem key="3:4">3:4 (Potret Tradisional)</SelectItem>
+                  <SelectItem key="21:9">21:9 (Ultrawide)</SelectItem>
+                  <SelectItem key="3:2">3:2 (Fotografi)</SelectItem>
+                  <SelectItem key="2:3">2:3 (Potret Fotografi)</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan rasio aspek manual"
@@ -1300,7 +1300,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.aspectRatio}
                   onValueChange={(value) => handleManualInputChange("aspectRatio", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
               
@@ -1313,15 +1313,15 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="4k" value="4k">4K</SelectItem>
-                  <SelectItem key="2k" value="2k">2K</SelectItem>
-                  <SelectItem key="fhd" value="fhd">Full HD</SelectItem>
-                  <SelectItem key="hd" value="hd">HD</SelectItem>
-                  <SelectItem key="sd" value="sd">SD</SelectItem>
-                  <SelectItem key="8k" value="8k">8K</SelectItem>
-                  <SelectItem key="high_res" value="high_res">Resolusi Tinggi</SelectItem>
-                  <SelectItem key="low_res" value="low_res">Resolusi Rendah</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="4k">4K</SelectItem>
+                  <SelectItem key="2k">2K</SelectItem>
+                  <SelectItem key="fhd">Full HD</SelectItem>
+                  <SelectItem key="hd">HD</SelectItem>
+                  <SelectItem key="sd">SD</SelectItem>
+                  <SelectItem key="8k">8K</SelectItem>
+                  <SelectItem key="high_res">Resolusi Tinggi</SelectItem>
+                  <SelectItem key="low_res">Resolusi Rendah</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan resolusi manual"
@@ -1330,7 +1330,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.resolution}
                   onValueChange={(value) => handleManualInputChange("resolution", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
             </div>
@@ -1358,50 +1358,50 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="none" value="none">Tidak Ditentukan</SelectItem>
-                  <SelectItem key="city" value="city">Kota</SelectItem>
-                  <SelectItem key="forest" value="forest">Hutan</SelectItem>
-                  <SelectItem key="beach" value="beach">Pantai</SelectItem>
-                  <SelectItem key="mountain" value="mountain">Gunung</SelectItem>
-                  <SelectItem key="desert" value="desert">Gurun</SelectItem>
-                  <SelectItem key="space" value="space">Luar Angkasa</SelectItem>
-                  <SelectItem key="underwater" value="underwater">Bawah Air</SelectItem>
-                  <SelectItem key="indoor" value="indoor">Dalam Ruangan</SelectItem>
-                  <SelectItem key="outdoor" value="outdoor">Luar Ruangan</SelectItem>
-                  <SelectItem key="futuristic_city" value="futuristic_city">Kota Futuristik</SelectItem>
-                  <SelectItem key="fantasy_realm" value="fantasy_realm">Dunia Fantasi</SelectItem>
-                  <SelectItem key="historical_setting" value="historical_setting">Setting Sejarah</SelectItem>
-                  <SelectItem key="cyberpunk_city" value="cyberpunk_city">Kota Cyberpunk</SelectItem>
-                  <SelectItem key="steampunk_world" value="steampunk_world">Dunia Steampunk</SelectItem>
-                  <SelectItem key="post_apocalyptic" value="post_apocalyptic">Post-Apokaliptik</SelectItem>
-                  <SelectItem key="tropical_island" value="tropical_island">Pulau Tropis</SelectItem>
-                  <SelectItem key="arctic_landscape" value="arctic_landscape">Pemandangan Arktik</SelectItem>
-                  <SelectItem key="volcanic_area" value="volcanic_area">Area Vulkanik</SelectItem>
-                  <SelectItem key="rural_village" value="rural_village">Desa Pedesaan</SelectItem>
-                  <SelectItem key="urban_street" value="urban_street">Jalanan Perkotaan</SelectItem>
-                  <SelectItem key="ancient_ruins" value="ancient_ruins">Reruntuhan Kuno</SelectItem>
-                  <SelectItem key="haunted_house" value="haunted_house">Rumah Hantu</SelectItem>
-                  <SelectItem key="library" value="library">Perpustakaan</SelectItem>
-                  <SelectItem key="laboratory" value="laboratory">Laboratorium</SelectItem>
-                  <SelectItem key="factory" value="factory">Pabrik</SelectItem>
-                  <SelectItem key="castle" value="castle">Kastil</SelectItem>
-                  <SelectItem key="temple" value="temple">Kuil</SelectItem>
-                  <SelectItem key="market" value="market">Pasar</SelectItem>
-                  <SelectItem key="school" value="school">Sekolah</SelectItem>
-                  <SelectItem key="hospital" value="hospital">Rumah Sakit</SelectItem>
-                  <SelectItem key="office" value="office">Kantor</SelectItem>
-                  <SelectItem key="park" value="park">Taman</SelectItem>
-                  <SelectItem key="stadium" value="stadium">Stadion</SelectItem>
-                  <SelectItem key="airport" value="airport">Bandara</SelectItem>
-                  <SelectItem key="train_station" value="train_station">Stasiun Kereta</SelectItem>
-                  <SelectItem key="ship" value="ship">Kapal</SelectItem>
-                  <SelectItem key="airplane" value="airplane">Pesawat</SelectItem>
-                  <SelectItem key="car" value="car">Mobil</SelectItem>
-                  <SelectItem key="train" value="train">Kereta</SelectItem>
-                  <SelectItem key="bus" value="bus">Bus</SelectItem>
-                  <SelectItem key="motorcycle" value="motorcycle">Motor</SelectItem>
-                  <SelectItem key="bicycle" value="bicycle">Sepeda</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="none">Tidak Ditentukan</SelectItem>
+                  <SelectItem key="city">Kota</SelectItem>
+                  <SelectItem key="forest">Hutan</SelectItem>
+                  <SelectItem key="beach">Pantai</SelectItem>
+                  <SelectItem key="mountain">Gunung</SelectItem>
+                  <SelectItem key="desert">Gurun</SelectItem>
+                  <SelectItem key="space">Luar Angkasa</SelectItem>
+                  <SelectItem key="underwater">Bawah Air</SelectItem>
+                  <SelectItem key="indoor">Dalam Ruangan</SelectItem>
+                  <SelectItem key="outdoor">Luar Ruangan</SelectItem>
+                  <SelectItem key="futuristic_city">Kota Futuristik</SelectItem>
+                  <SelectItem key="fantasy_realm">Dunia Fantasi</SelectItem>
+                  <SelectItem key="historical_setting">Setting Sejarah</SelectItem>
+                  <SelectItem key="cyberpunk_city">Kota Cyberpunk</SelectItem>
+                  <SelectItem key="steampunk_world">Dunia Steampunk</SelectItem>
+                  <SelectItem key="post_apocalyptic">Post-Apokaliptik</SelectItem>
+                  <SelectItem key="tropical_island">Pulau Tropis</SelectItem>
+                  <SelectItem key="arctic_landscape">Pemandangan Arktik</SelectItem>
+                  <SelectItem key="volcanic_area">Area Vulkanik</SelectItem>
+                  <SelectItem key="rural_village">Desa Pedesaan</SelectItem>
+                  <SelectItem key="urban_street">Jalanan Perkotaan</SelectItem>
+                  <SelectItem key="ancient_ruins">Reruntuhan Kuno</SelectItem>
+                  <SelectItem key="haunted_house">Rumah Hantu</SelectItem>
+                  <SelectItem key="library">Perpustakaan</SelectItem>
+                  <SelectItem key="laboratory">Laboratorium</SelectItem>
+                  <SelectItem key="factory">Pabrik</SelectItem>
+                  <SelectItem key="castle">Kastil</SelectItem>
+                  <SelectItem key="temple">Kuil</SelectItem>
+                  <SelectItem key="market">Pasar</SelectItem>
+                  <SelectItem key="school">Sekolah</SelectItem>
+                  <SelectItem key="hospital">Rumah Sakit</SelectItem>
+                  <SelectItem key="office">Kantor</SelectItem>
+                  <SelectItem key="park">Taman</SelectItem>
+                  <SelectItem key="stadium">Stadion</SelectItem>
+                  <SelectItem key="airport">Bandara</SelectItem>
+                  <SelectItem key="train_station">Stasiun Kereta</SelectItem>
+                  <SelectItem key="ship">Kapal</SelectItem>
+                  <SelectItem key="airplane">Pesawat</SelectItem>
+                  <SelectItem key="car">Mobil</SelectItem>
+                  <SelectItem key="train">Kereta</SelectItem>
+                  <SelectItem key="bus">Bus</SelectItem>
+                  <SelectItem key="motorcycle">Motor</SelectItem>
+                  <SelectItem key="bicycle">Sepeda</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan lokasi manual"
@@ -1410,7 +1410,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.location}
                   onValueChange={(value) => handleManualInputChange("location", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
               
@@ -1423,42 +1423,42 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="none" value="none">Tidak Ditentukan</SelectItem>
-                  <SelectItem key="cheerful" value="cheerful">Ceria</SelectItem>
-                  <SelectItem key="melancholic" value="melancholic">Melankolis</SelectItem>
-                  <SelectItem key="peaceful" value="peaceful">Damai</SelectItem>
-                  <SelectItem key="dramatic" value="dramatic">Dramatis</SelectItem>
-                  <SelectItem key="mystic" value="mystic">Misterius</SelectItem>
-                  <SelectItem key="dark" value="dark">Gelap</SelectItem>
-                  <SelectItem key="romantic" value="romantic">Romantis</SelectItem>
-                  <SelectItem key="epic" value="epic">Epik</SelectItem>
-                  <SelectItem key="nostalgic" value="nostalgic">Nostalgia</SelectItem>
-                  <SelectItem key="energetic" value="energetic">Energetik</SelectItem>
-                  <SelectItem key="tense" value="tense">Tegang</SelectItem>
-                  <SelectItem key="dreamy" value="dreamy">Seperti Mimpi</SelectItem>
-                  <SelectItem key="whimsical" value="whimsical">Aneh / Unik</SelectItem>
-                  <SelectItem key="serene" value="serene">Tenang</SelectItem>
-                  <SelectItem key="chaotic" value="chaotic">Kacau</SelectItem>
-                  <SelectItem key="hopeful" value="hopeful">Penuh Harapan</SelectItem>
-                  <SelectItem key="desperate" value="desperate">Putus Asa</SelectItem>
-                  <SelectItem key="joyful" value="joyful">Gembira</SelectItem>
-                  <SelectItem key="suspenseful" value="suspenseful">Mencekam</SelectItem>
-                  <SelectItem key="eerie" value="eerie">Menyeramkan</SelectItem>
-                  <SelectItem key="cozy" value="cozy">Nyaman</SelectItem>
-                  <SelectItem key="grand" value="grand">Megah</SelectItem>
-                  <SelectItem key="intimate" value="intimate">Intim</SelectItem>
-                  <SelectItem key="lonely" value="lonely">Kesepian</SelectItem>
-                  <SelectItem key="playful" value="playful">Bercanda</SelectItem>
-                  <SelectItem key="serious" value="serious">Serius</SelectItem>
-                  <SelectItem key="surreal" value="surreal">Surealis</SelectItem>
-                  <SelectItem key="vintage" value="vintage">Vintage</SelectItem>
-                  <SelectItem key="modern" value="modern">Modern</SelectItem>
-                  <SelectItem key="futuristic" value="futuristic">Futuristik</SelectItem>
-                  <SelectItem key="retro" value="retro">Retro</SelectItem>
-                  <SelectItem key="gothic" value="gothic">Gotik</SelectItem>
-                  <SelectItem key="cyberpunk" value="cyberpunk">Cyberpunk</SelectItem>
-                  <SelectItem key="steampunk" value="steampunk">Steampunk</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="none">Tidak Ditentukan</SelectItem>
+                  <SelectItem key="cheerful">Ceria</SelectItem>
+                  <SelectItem key="melancholic">Melankolis</SelectItem>
+                  <SelectItem key="peaceful">Damai</SelectItem>
+                  <SelectItem key="dramatic">Dramatis</SelectItem>
+                  <SelectItem key="mystic">Misterius</SelectItem>
+                  <SelectItem key="dark">Gelap</SelectItem>
+                  <SelectItem key="romantic">Romantis</SelectItem>
+                  <SelectItem key="epic">Epik</SelectItem>
+                  <SelectItem key="nostalgic">Nostalgia</SelectItem>
+                  <SelectItem key="energetic">Energetik</SelectItem>
+                  <SelectItem key="tense">Tegang</SelectItem>
+                  <SelectItem key="dreamy">Seperti Mimpi</SelectItem>
+                  <SelectItem key="whimsical">Aneh / Unik</SelectItem>
+                  <SelectItem key="serene">Tenang</SelectItem>
+                  <SelectItem key="chaotic">Kacau</SelectItem>
+                  <SelectItem key="hopeful">Penuh Harapan</SelectItem>
+                  <SelectItem key="desperate">Putus Asa</SelectItem>
+                  <SelectItem key="joyful">Gembira</SelectItem>
+                  <SelectItem key="suspenseful">Mencekam</SelectItem>
+                  <SelectItem key="eerie">Menyeramkan</SelectItem>
+                  <SelectItem key="cozy">Nyaman</SelectItem>
+                  <SelectItem key="grand">Megah</SelectItem>
+                  <SelectItem key="intimate">Intim</SelectItem>
+                  <SelectItem key="lonely">Kesepian</SelectItem>
+                  <SelectItem key="playful">Bercanda</SelectItem>
+                  <SelectItem key="serious">Serius</SelectItem>
+                  <SelectItem key="surreal">Surealis</SelectItem>
+                  <SelectItem key="vintage">Vintage</SelectItem>
+                  <SelectItem key="modern">Modern</SelectItem>
+                  <SelectItem key="futuristic">Futuristik</SelectItem>
+                  <SelectItem key="retro">Retro</SelectItem>
+                  <SelectItem key="gothic">Gotik</SelectItem>
+                  <SelectItem key="cyberpunk">Cyberpunk</SelectItem>
+                  <SelectItem key="steampunk">Steampunk</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan suasana manual"
@@ -1467,7 +1467,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.mood}
                   onValueChange={(value) => handleManualInputChange("mood", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
             </div>
@@ -1482,21 +1482,21 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="none" value="none">Tidak Ditentukan</SelectItem>
-                  <SelectItem key="day" value="day">Siang Hari</SelectItem>
-                  <SelectItem key="night" value="night">Malam Hari</SelectItem>
-                  <SelectItem key="sunrise" value="sunrise">Matahari Terbit</SelectItem>
-                  <SelectItem key="sunset" value="sunset">Matahari Terbenam</SelectItem>
-                  <SelectItem key="golden_hour" value="golden_hour">Golden Hour</SelectItem>
-                  <SelectItem key="blue_hour" value="blue_hour">Blue Hour</SelectItem>
-                  <SelectItem key="midday" value="midday">Tengah Hari</SelectItem>
-                  <SelectItem key="midnight" value="midnight">Tengah Malam</SelectItem>
-                  <SelectItem key="dawn" value="dawn">Fajar</SelectItem>
-                  <SelectItem key="dusk" value="dusk">Senja</SelectItem>
-                  <SelectItem key="afternoon" value="afternoon">Sore Hari</SelectItem>
-                  <SelectItem key="morning" value="morning">Pagi Hari</SelectItem>
-                  <SelectItem key="twilight" value="twilight">Twilight</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="none">Tidak Ditentukan</SelectItem>
+                  <SelectItem key="day">Siang Hari</SelectItem>
+                  <SelectItem key="night">Malam Hari</SelectItem>
+                  <SelectItem key="sunrise">Matahari Terbit</SelectItem>
+                  <SelectItem key="sunset">Matahari Terbenam</SelectItem>
+                  <SelectItem key="golden_hour">Golden Hour</SelectItem>
+                  <SelectItem key="blue_hour">Blue Hour</SelectItem>
+                  <SelectItem key="midday">Tengah Hari</SelectItem>
+                  <SelectItem key="midnight">Tengah Malam</SelectItem>
+                  <SelectItem key="dawn">Fajar</SelectItem>
+                  <SelectItem key="dusk">Senja</SelectItem>
+                  <SelectItem key="afternoon">Sore Hari</SelectItem>
+                  <SelectItem key="morning">Pagi Hari</SelectItem>
+                  <SelectItem key="twilight">Twilight</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan waktu manual"
@@ -1505,7 +1505,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.time}
                   onValueChange={(value) => handleManualInputChange("time", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
               
@@ -1518,35 +1518,35 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="none" value="none">Tidak Ditentukan</SelectItem>
-                  <SelectItem key="sunny" value="sunny">Cerah</SelectItem>
-                  <SelectItem key="cloudy" value="cloudy">Berawan</SelectItem>
-                  <SelectItem key="rainy" value="rainy">Hujan</SelectItem>
-                  <SelectItem key="stormy" value="stormy">Badai</SelectItem>
-                  <SelectItem key="snowy" value="snowy">Bersalju</SelectItem>
-                  <SelectItem key="foggy" value="foggy">Berkabut</SelectItem>
-                  <SelectItem key="windy" value="windy">Berangin</SelectItem>
-                  <SelectItem key="overcast" value="overcast">Mendung</SelectItem>
-                  <SelectItem key="hail" value="hail">Hujan Es</SelectItem>
-                  <SelectItem key="sleet" value="sleet">Hujan Salju</SelectItem>
-                  <SelectItem key="thunderstorm" value="thunderstorm">Badai Petir</SelectItem>
-                  <SelectItem key="tornado" value="tornado">Tornado</SelectItem>
-                  <SelectItem key="hurricane" value="hurricane">Badai Topan</SelectItem>
-                  <SelectItem key="blizzard" value="blizzard">Badai Salju</SelectItem>
-                  <SelectItem key="sandstorm" value="sandstorm">Badai Pasir</SelectItem>
-                  <SelectItem key="dust_storm" value="dust_storm">Badai Debu</SelectItem>
-                  <SelectItem key="clear_sky" value="clear_sky">Langit Cerah</SelectItem>
-                  <SelectItem key="partly_cloudy" value="partly_cloudy">Sebagian Berawan</SelectItem>
-                  <SelectItem key="heavy_rain" value="heavy_rain">Hujan Lebat</SelectItem>
-                  <SelectItem key="light_rain" value="light_rain">Hujan Ringan</SelectItem>
-                  <SelectItem key="drizzle" value="drizzle">Gerimis</SelectItem>
-                  <SelectItem key="mist" value="mist">Kabut Tipis</SelectItem>
-                  <SelectItem key="haze" value="haze">Kabut Asap</SelectItem>
-                  <SelectItem key="rainbow" value="rainbow">Pelangi</SelectItem>
-                  <SelectItem key="aurora" value="aurora">Aurora</SelectItem>
-                  <SelectItem key="meteor_shower" value="meteor_shower">Hujan Meteor</SelectItem>
-                  <SelectItem key="eclipse" value="eclipse">Gerhana</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="none">Tidak Ditentukan</SelectItem>
+                  <SelectItem key="sunny">Cerah</SelectItem>
+                  <SelectItem key="cloudy">Berawan</SelectItem>
+                  <SelectItem key="rainy">Hujan</SelectItem>
+                  <SelectItem key="stormy">Badai</SelectItem>
+                  <SelectItem key="snowy">Bersalju</SelectItem>
+                  <SelectItem key="foggy">Berkabut</SelectItem>
+                  <SelectItem key="windy">Berangin</SelectItem>
+                  <SelectItem key="overcast">Mendung</SelectItem>
+                  <SelectItem key="hail">Hujan Es</SelectItem>
+                  <SelectItem key="sleet">Hujan Salju</SelectItem>
+                  <SelectItem key="thunderstorm">Badai Petir</SelectItem>
+                  <SelectItem key="tornado">Tornado</SelectItem>
+                  <SelectItem key="hurricane">Badai Topan</SelectItem>
+                  <SelectItem key="blizzard">Badai Salju</SelectItem>
+                  <SelectItem key="sandstorm">Badai Pasir</SelectItem>
+                  <SelectItem key="dust_storm">Badai Debu</SelectItem>
+                  <SelectItem key="clear_sky">Langit Cerah</SelectItem>
+                  <SelectItem key="partly_cloudy">Sebagian Berawan</SelectItem>
+                  <SelectItem key="heavy_rain">Hujan Lebat</SelectItem>
+                  <SelectItem key="light_rain">Hujan Ringan</SelectItem>
+                  <SelectItem key="drizzle">Gerimis</SelectItem>
+                  <SelectItem key="mist">Kabut Tipis</SelectItem>
+                  <SelectItem key="haze">Kabut Asap</SelectItem>
+                  <SelectItem key="rainbow">Pelangi</SelectItem>
+                  <SelectItem key="aurora">Aurora</SelectItem>
+                  <SelectItem key="meteor_shower">Hujan Meteor</SelectItem>
+                  <SelectItem key="eclipse">Gerhana</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan cuaca manual"
@@ -1555,7 +1555,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.weather}
                   onValueChange={(value) => handleManualInputChange("weather", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
             </div>
@@ -1583,47 +1583,47 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="none" value="none">Tidak Ditentukan</SelectItem>
-                  <SelectItem key="glasses" value="glasses">Kacamata</SelectItem>
-                  <SelectItem key="hat" value="hat">Topi</SelectItem>
-                  <SelectItem key="scarf" value="scarf">Syal</SelectItem>
-                  <SelectItem key="jewelry" value="jewelry">Perhiasan</SelectItem>
-                  <SelectItem key="weapon" value="weapon">Senjata</SelectItem>
-                  <SelectItem key="book" value="book">Buku</SelectItem>
-                  <SelectItem key="musical_instrument" value="musical_instrument">Alat Musik</SelectItem>
-                  <SelectItem key="backpack" value="backpack">Ransel</SelectItem>
-                  <SelectItem key="umbrella" value="umbrella">Payung</SelectItem>
-                  <SelectItem key="headphones" value="headphones">Headphone</SelectItem>
-                  <SelectItem key="camera" value="camera">Kamera</SelectItem>
-                  <SelectItem key="phone" value="phone">Telepon</SelectItem>
-                  <SelectItem key="laptop" value="laptop">Laptop</SelectItem>
-                  <SelectItem key="coffee_cup" value="coffee_cup">Cangkir Kopi</SelectItem>
-                  <SelectItem key="tea_cup" value="tea_cup">Cangkir Teh</SelectItem>
-                  <SelectItem key="wine_glass" value="wine_glass">Gelas Anggur</SelectItem>
-                  <SelectItem key="beer_mug" value="beer_mug">Mug Bir</SelectItem>
-                  <SelectItem key="sword" value="sword">Pedang</SelectItem>
-                  <SelectItem key="shield" value="shield">Perisai</SelectItem>
-                  <SelectItem key="bow_arrow" value="bow_arrow">Panah & Busur</SelectItem>
-                  <SelectItem key="magic_wand" value="magic_wand">Tongkat Sihir</SelectItem>
-                  <SelectItem key="staff" value="staff">Tongkat</SelectItem>
-                  <SelectItem key="lantern" value="lantern">Lentera</SelectItem>
-                  <SelectItem key="torch" value="torch">Obor</SelectItem>
-                  <SelectItem key="map" value="map">Peta</SelectItem>
-                  <SelectItem key="compass" value="compass">Kompas</SelectItem>
-                  <SelectItem key="telescope" value="telescope">Teleskop</SelectItem>
-                  <SelectItem key="microscope" value="microscope">Mikroskop</SelectItem>
-                  <SelectItem key="magnifying_glass" value="magnifying_glass">Kaca Pembesar</SelectItem>
-                  <SelectItem key="key" value="key">Kunci</SelectItem>
-                  <SelectItem key="lock" value="lock">Gembok</SelectItem>
-                  <SelectItem key="chains" value="chains">Rantai</SelectItem>
-                  <SelectItem key="armor" value="armor">Armor</SelectItem>
-                  <SelectItem key="helmet" value="helmet">Helm</SelectItem>
-                  <SelectItem key="leather_jacket" value="leather_jacket">Jaket Kulit</SelectItem>
-                  <SelectItem key="face_mask" value="face_mask">Masker Wajah</SelectItem>
-                  <SelectItem key="luxury_jewelry" value="luxury_jewelry">Perhiasan Mewah</SelectItem>
-                  <SelectItem key="flying_scarf" value="flying_scarf">Syal Terbang</SelectItem>
-                  <SelectItem key="old_camera" value="old_camera">Kamera Tua</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="none">Tidak Ditentukan</SelectItem>
+                  <SelectItem key="glasses">Kacamata</SelectItem>
+                  <SelectItem key="hat">Topi</SelectItem>
+                  <SelectItem key="scarf">Syal</SelectItem>
+                  <SelectItem key="jewelry">Perhiasan</SelectItem>
+                  <SelectItem key="weapon">Senjata</SelectItem>
+                  <SelectItem key="book">Buku</SelectItem>
+                  <SelectItem key="musical_instrument">Alat Musik</SelectItem>
+                  <SelectItem key="backpack">Ransel</SelectItem>
+                  <SelectItem key="umbrella">Payung</SelectItem>
+                  <SelectItem key="headphones">Headphone</SelectItem>
+                  <SelectItem key="camera">Kamera</SelectItem>
+                  <SelectItem key="phone">Telepon</SelectItem>
+                  <SelectItem key="laptop">Laptop</SelectItem>
+                  <SelectItem key="coffee_cup">Cangkir Kopi</SelectItem>
+                  <SelectItem key="tea_cup">Cangkir Teh</SelectItem>
+                  <SelectItem key="wine_glass">Gelas Anggur</SelectItem>
+                  <SelectItem key="beer_mug">Mug Bir</SelectItem>
+                  <SelectItem key="sword">Pedang</SelectItem>
+                  <SelectItem key="shield">Perisai</SelectItem>
+                  <SelectItem key="bow_arrow">Panah & Busur</SelectItem>
+                  <SelectItem key="magic_wand">Tongkat Sihir</SelectItem>
+                  <SelectItem key="staff">Tongkat</SelectItem>
+                  <SelectItem key="lantern">Lentera</SelectItem>
+                  <SelectItem key="torch">Obor</SelectItem>
+                  <SelectItem key="map">Peta</SelectItem>
+                  <SelectItem key="compass">Kompas</SelectItem>
+                  <SelectItem key="telescope">Teleskop</SelectItem>
+                  <SelectItem key="microscope">Mikroskop</SelectItem>
+                  <SelectItem key="magnifying_glass">Kaca Pembesar</SelectItem>
+                  <SelectItem key="key">Kunci</SelectItem>
+                  <SelectItem key="lock">Gembok</SelectItem>
+                  <SelectItem key="chains">Rantai</SelectItem>
+                  <SelectItem key="armor">Armor</SelectItem>
+                  <SelectItem key="helmet">Helm</SelectItem>
+                  <SelectItem key="leather_jacket">Jaket Kulit</SelectItem>
+                  <SelectItem key="face_mask">Masker Wajah</SelectItem>
+                  <SelectItem key="luxury_jewelry">Perhiasan Mewah</SelectItem>
+                  <SelectItem key="flying_scarf">Syal Terbang</SelectItem>
+                  <SelectItem key="old_camera">Kamera Tua</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan aksesori manual"
@@ -1632,7 +1632,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.accessories}
                   onValueChange={(value) => handleManualInputChange("accessories", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
               
@@ -1645,27 +1645,27 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="none" value="none">Tidak Ditentukan</SelectItem>
-                  <SelectItem key="happy" value="happy">Bahagia</SelectItem>
-                  <SelectItem key="sad" value="sad">Sedih</SelectItem>
-                  <SelectItem key="angry" value="angry">Marah</SelectItem>
-                  <SelectItem key="afraid" value="afraid">Takut</SelectItem>
-                  <SelectItem key="surprised" value="surprised">Kaget</SelectItem>
-                  <SelectItem key="confused" value="confused">Bingung</SelectItem>
-                  <SelectItem key="calm" value="calm">Tenang</SelectItem>
-                  <SelectItem key="anxious" value="anxious">Cemas</SelectItem>
-                  <SelectItem key="love" value="love">Cinta</SelectItem>
-                  <SelectItem key="pity" value="pity">Kasihan</SelectItem>
-                  <SelectItem key="proud" value="proud">Bangga</SelectItem>
-                  <SelectItem key="pouting" value="pouting">Cemberut</SelectItem>
-                  <SelectItem key="laughing" value="laughing">Tertawa</SelectItem>
-                  <SelectItem key="contemplative" value="contemplative">Merenung</SelectItem>
-                  <SelectItem key="sleepy" value="sleepy">Mengantuk</SelectItem>
-                  <SelectItem key="inspired" value="inspired">Terinspirasi</SelectItem>
-                  <SelectItem key="cynical" value="cynical">Sinis</SelectItem>
-                  <SelectItem key="enthusiastic" value="enthusiastic">Antusias</SelectItem>
-                  <SelectItem key="apathetic" value="apathetic">Apatis</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="none">Tidak Ditentukan</SelectItem>
+                  <SelectItem key="happy">Bahagia</SelectItem>
+                  <SelectItem key="sad">Sedih</SelectItem>
+                  <SelectItem key="angry">Marah</SelectItem>
+                  <SelectItem key="afraid">Takut</SelectItem>
+                  <SelectItem key="surprised">Kaget</SelectItem>
+                  <SelectItem key="confused">Bingung</SelectItem>
+                  <SelectItem key="calm">Tenang</SelectItem>
+                  <SelectItem key="anxious">Cemas</SelectItem>
+                  <SelectItem key="love">Cinta</SelectItem>
+                  <SelectItem key="pity">Kasihan</SelectItem>
+                  <SelectItem key="proud">Bangga</SelectItem>
+                  <SelectItem key="pouting">Cemberut</SelectItem>
+                  <SelectItem key="laughing">Tertawa</SelectItem>
+                  <SelectItem key="contemplative">Merenung</SelectItem>
+                  <SelectItem key="sleepy">Mengantuk</SelectItem>
+                  <SelectItem key="inspired">Terinspirasi</SelectItem>
+                  <SelectItem key="cynical">Sinis</SelectItem>
+                  <SelectItem key="enthusiastic">Antusias</SelectItem>
+                  <SelectItem key="apathetic">Apatis</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan emosi manual"
@@ -1674,7 +1674,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.emotion}
                   onValueChange={(value) => handleManualInputChange("emotion", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
             </div>
@@ -1702,24 +1702,24 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="close_up" value="close_up">Close-up</SelectItem>
-                  <SelectItem key="wide_shot" value="wide_shot">Wide Shot</SelectItem>
-                  <SelectItem key="birds_eye" value="birds_eye">Sudut Pandang dari Atas (Bird's Eye View)</SelectItem>
-                  <SelectItem key="worms_eye" value="worms_eye">Sudut Pandang dari Bawah (Worm's Eye View)</SelectItem>
-                  <SelectItem key="panorama" value="panorama">Panorama</SelectItem>
-                  <SelectItem key="rule_of_thirds" value="rule_of_thirds">Aturan Sepertiga (Rule of Thirds)</SelectItem>
-                  <SelectItem key="symmetrical" value="symmetrical">Simetris</SelectItem>
-                  <SelectItem key="asymmetrical" value="asymmetrical">Asimetris</SelectItem>
-                  <SelectItem key="single_focus" value="single_focus">Fokus Tunggal</SelectItem>
-                  <SelectItem key="multi_character" value="multi_character">Banyak Karakter</SelectItem>
-                  <SelectItem key="diorama" value="diorama">Diorama</SelectItem>
-                  <SelectItem key="eye_level" value="eye_level">Eye Level</SelectItem>
-                  <SelectItem key="low_angle" value="low_angle">Low Angle</SelectItem>
-                  <SelectItem key="high_angle" value="high_angle">High Angle</SelectItem>
-                  <SelectItem key="dutch_angle" value="dutch_angle">Dutch Angle</SelectItem>
-                  <SelectItem key="over_shoulder" value="over_shoulder">Over The Shoulder</SelectItem>
-                  <SelectItem key="pov" value="pov">POV (Point of View)</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="close_up">Close-up</SelectItem>
+                  <SelectItem key="wide_shot">Wide Shot</SelectItem>
+                  <SelectItem key="birds_eye">Sudut Pandang dari Atas (Bird's Eye View)</SelectItem>
+                  <SelectItem key="worms_eye">Sudut Pandang dari Bawah (Worm's Eye View)</SelectItem>
+                  <SelectItem key="panorama">Panorama</SelectItem>
+                  <SelectItem key="rule_of_thirds">Aturan Sepertiga (Rule of Thirds)</SelectItem>
+                  <SelectItem key="symmetrical">Simetris</SelectItem>
+                  <SelectItem key="asymmetrical">Asimetris</SelectItem>
+                  <SelectItem key="single_focus">Fokus Tunggal</SelectItem>
+                  <SelectItem key="multi_character">Banyak Karakter</SelectItem>
+                  <SelectItem key="diorama">Diorama</SelectItem>
+                  <SelectItem key="eye_level">Eye Level</SelectItem>
+                  <SelectItem key="low_angle">Low Angle</SelectItem>
+                  <SelectItem key="high_angle">High Angle</SelectItem>
+                  <SelectItem key="dutch_angle">Dutch Angle</SelectItem>
+                  <SelectItem key="over_shoulder">Over The Shoulder</SelectItem>
+                  <SelectItem key="pov">POV (Point of View)</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan sudut kamera manual"
@@ -1728,7 +1728,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.cameraAngle}
                   onValueChange={(value) => handleManualInputChange("cameraAngle", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
               
@@ -1741,30 +1741,30 @@ export const PromptGenerator: React.FC = () => {
                   className="w-full mb-2"
                   variant="bordered"
                 >
-                  <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                  <SelectItem key="with_background" value="with_background">Dengan Background</SelectItem>
-                  <SelectItem key="without_background" value="without_background">Tanpa Background (PNG)</SelectItem>
-                  <SelectItem key="blur_background" value="blur_background">Background Blur</SelectItem>
-                  <SelectItem key="gradient_background" value="gradient_background">Background Gradient</SelectItem>
-                  <SelectItem key="solid_background" value="solid_background">Background Solid</SelectItem>
-                  <SelectItem key="bokeh_background" value="bokeh_background">Background Bokeh</SelectItem>
-                  <SelectItem key="double_exposure" value="double_exposure">Paparan Ganda (Double Exposure)</SelectItem>
-                  <SelectItem key="neon_light" value="neon_light">Efek Cahaya Neon</SelectItem>
-                  <SelectItem key="motion_blur" value="motion_blur">Gerakan Kabur (Motion Blur)</SelectItem>
-                  <SelectItem key="silhouette" value="silhouette">Siluet</SelectItem>
-                  <SelectItem key="shadow_play" value="shadow_play">Permainan Bayangan</SelectItem>
-                  <SelectItem key="xray" value="xray">Gaya Sinar-X</SelectItem>
-                  <SelectItem key="cutaway" value="cutaway">Potongan Silang</SelectItem>
-                  <SelectItem key="cross_section" value="cross_section">Potongan Melintang</SelectItem>
-                  <SelectItem key="3d_anaglyph" value="3d_anaglyph">Gaya 3D Anaglif</SelectItem>
-                  <SelectItem key="paper_cut" value="paper_cut">Gaya Potongan Kertas</SelectItem>
-                  <SelectItem key="timelapse" value="timelapse">Komposit Time-lapse</SelectItem>
-                  <SelectItem key="tilt_shift" value="tilt_shift">Tilt-shift</SelectItem>
-                  <SelectItem key="glitch_art" value="glitch_art">Seni Glitch</SelectItem>
-                  <SelectItem key="vaporwave" value="vaporwave">Gaya Vaporwave</SelectItem>
-                  <SelectItem key="hologram" value="hologram">Gaya Hologram</SelectItem>
-                  <SelectItem key="thermal_vision" value="thermal_vision">Penglihatan Termal</SelectItem>
-                  <SelectItem key="night_vision" value="night_vision">Penglihatan Malam</SelectItem>
+                  <SelectItem key="auto">Otomatis</SelectItem>
+                  <SelectItem key="with_background">Dengan Background</SelectItem>
+                  <SelectItem key="without_background">Tanpa Background (PNG)</SelectItem>
+                  <SelectItem key="blur_background">Background Blur</SelectItem>
+                  <SelectItem key="gradient_background">Background Gradient</SelectItem>
+                  <SelectItem key="solid_background">Background Solid</SelectItem>
+                  <SelectItem key="bokeh_background">Background Bokeh</SelectItem>
+                  <SelectItem key="double_exposure">Paparan Ganda (Double Exposure)</SelectItem>
+                  <SelectItem key="neon_light">Efek Cahaya Neon</SelectItem>
+                  <SelectItem key="motion_blur">Gerakan Kabur (Motion Blur)</SelectItem>
+                  <SelectItem key="silhouette">Siluet</SelectItem>
+                  <SelectItem key="shadow_play">Permainan Bayangan</SelectItem>
+                  <SelectItem key="xray">Gaya Sinar-X</SelectItem>
+                  <SelectItem key="cutaway">Potongan Silang</SelectItem>
+                  <SelectItem key="cross_section">Potongan Melintang</SelectItem>
+                  <SelectItem key="3d_anaglyph">Gaya 3D Anaglif</SelectItem>
+                  <SelectItem key="paper_cut">Gaya Potongan Kertas</SelectItem>
+                  <SelectItem key="timelapse">Komposit Time-lapse</SelectItem>
+                  <SelectItem key="tilt_shift">Tilt-shift</SelectItem>
+                  <SelectItem key="glitch_art">Seni Glitch</SelectItem>
+                  <SelectItem key="vaporwave">Gaya Vaporwave</SelectItem>
+                  <SelectItem key="hologram">Gaya Hologram</SelectItem>
+                  <SelectItem key="thermal_vision">Penglihatan Termal</SelectItem>
+                  <SelectItem key="night_vision">Penglihatan Malam</SelectItem>
                 </Select>
                 <Input
                   placeholder="Atau masukkan teknik khusus manual"
@@ -1773,7 +1773,7 @@ export const PromptGenerator: React.FC = () => {
                   value={manualInputs.background}
                   onValueChange={(value) => handleManualInputChange("background", value)}
                   className="w-full"
-                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" size={16} />}
+                  startContent={<Icon icon="lucide:edit-3" className="text-default-400" width={16} height={16} />}
                 />
               </div>
             </div>
@@ -1806,11 +1806,11 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih jenis video"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="animation" value="animation">Animasi</SelectItem>
-                <SelectItem key="motion" value="motion">Motion Graphics</SelectItem>
-                <SelectItem key="cinematic" value="cinematic">Sinematik</SelectItem>
-                <SelectItem key="explainer" value="explainer">Video Penjelasan</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="animation">Animasi</SelectItem>
+                <SelectItem key="motion">Motion Graphics</SelectItem>
+                <SelectItem key="cinematic">Sinematik</SelectItem>
+                <SelectItem key="explainer">Video Penjelasan</SelectItem>
               </Select>
               
               <Select 
@@ -1818,11 +1818,11 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih durasi video"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="short" value="short">Pendek (5-15 detik)</SelectItem>
-                <SelectItem key="medium" value="medium">Sedang (15-30 detik)</SelectItem>
-                <SelectItem key="long" value="long">Panjang (30-60 detik)</SelectItem>
-                <SelectItem key="extended" value="extended">Extended (1-3 menit)</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="short">Pendek (5-15 detik)</SelectItem>
+                <SelectItem key="medium">Sedang (15-30 detik)</SelectItem>
+                <SelectItem key="long">Panjang (30-60 detik)</SelectItem>
+                <SelectItem key="extended">Extended (1-3 menit)</SelectItem>
               </Select>
             </div>
             
@@ -1832,11 +1832,11 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih gaya visual"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="realistic" value="realistic">Realistis</SelectItem>
-                <SelectItem key="cartoon" value="cartoon">Kartun</SelectItem>
-                <SelectItem key="3d" value="3d">3D Render</SelectItem>
-                <SelectItem key="stopmotion" value="stopmotion">Stop Motion</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="realistic">Realistis</SelectItem>
+                <SelectItem key="cartoon">Kartun</SelectItem>
+                <SelectItem key="3d">3D Render</SelectItem>
+                <SelectItem key="stopmotion">Stop Motion</SelectItem>
               </Select>
               
               <Select 
@@ -1844,11 +1844,11 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih resolusi video"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="4k" value="4k">4K (3840 x 2160)</SelectItem>
-                <SelectItem key="2k" value="2k">2K (2560 x 1440)</SelectItem>
-                <SelectItem key="fhd" value="fhd">Full HD (1920 x 1080)</SelectItem>
-                <SelectItem key="hd" value="hd">HD (1280 x 720)</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="4k">4K (3840 x 2160)</SelectItem>
+                <SelectItem key="2k">2K (2560 x 1440)</SelectItem>
+                <SelectItem key="fhd">Full HD (1920 x 1080)</SelectItem>
+                <SelectItem key="hd">HD (1280 x 720)</SelectItem>
               </Select>
             </div>
             
@@ -1881,12 +1881,12 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih kecepatan video"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="normal" value="normal">Normal</SelectItem>
-                <SelectItem key="slow" value="slow">Slow Motion</SelectItem>
-                <SelectItem key="fast" value="fast">Fast Motion</SelectItem>
-                <SelectItem key="timelapse" value="timelapse">Timelapse</SelectItem>
-                <SelectItem key="hyperlapse" value="hyperlapse">Hyperlapse</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="normal">Normal</SelectItem>
+                <SelectItem key="slow">Slow Motion</SelectItem>
+                <SelectItem key="fast">Fast Motion</SelectItem>
+                <SelectItem key="timelapse">Timelapse</SelectItem>
+                <SelectItem key="hyperlapse">Hyperlapse</SelectItem>
               </Select>
               
               <Select 
@@ -1894,15 +1894,15 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih jenis transisi"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="cut" value="cut">Cut</SelectItem>
-                <SelectItem key="fade" value="fade">Fade</SelectItem>
-                <SelectItem key="dissolve" value="dissolve">Dissolve</SelectItem>
-                <SelectItem key="wipe" value="wipe">Wipe</SelectItem>
-                <SelectItem key="slide" value="slide">Slide</SelectItem>
-                <SelectItem key="zoom" value="zoom">Zoom</SelectItem>
-                <SelectItem key="morph" value="morph">Morph</SelectItem>
-                <SelectItem key="glitch" value="glitch">Glitch</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="cut">Cut</SelectItem>
+                <SelectItem key="fade">Fade</SelectItem>
+                <SelectItem key="dissolve">Dissolve</SelectItem>
+                <SelectItem key="wipe">Wipe</SelectItem>
+                <SelectItem key="slide">Slide</SelectItem>
+                <SelectItem key="zoom">Zoom</SelectItem>
+                <SelectItem key="morph">Morph</SelectItem>
+                <SelectItem key="glitch">Glitch</SelectItem>
               </Select>
             </div>
             
@@ -1912,16 +1912,16 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih suasana"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="none" value="none">Tidak Ditentukan</SelectItem>
-                <SelectItem key="cheerful" value="cheerful">Ceria</SelectItem>
-                <SelectItem key="melancholic" value="melancholic">Melankolis</SelectItem>
-                <SelectItem key="peaceful" value="peaceful">Damai</SelectItem>
-                <SelectItem key="dramatic" value="dramatic">Dramatis</SelectItem>
-                <SelectItem key="mystic" value="mystic">Misterius</SelectItem>
-                <SelectItem key="dark" value="dark">Gelap</SelectItem>
-                <SelectItem key="romantic" value="romantic">Romantis</SelectItem>
-                <SelectItem key="epic" value="epic">Epik</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="none">Tidak Ditentukan</SelectItem>
+                <SelectItem key="cheerful">Ceria</SelectItem>
+                <SelectItem key="melancholic">Melankolis</SelectItem>
+                <SelectItem key="peaceful">Damai</SelectItem>
+                <SelectItem key="dramatic">Dramatis</SelectItem>
+                <SelectItem key="mystic">Misterius</SelectItem>
+                <SelectItem key="dark">Gelap</SelectItem>
+                <SelectItem key="romantic">Romantis</SelectItem>
+                <SelectItem key="epic">Epik</SelectItem>
               </Select>
               
               <Select 
@@ -1929,12 +1929,12 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih pencahayaan"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="natural" value="natural">Alami</SelectItem>
-                <SelectItem key="studio" value="studio">Studio</SelectItem>
-                <SelectItem key="cinematic" value="cinematic">Sinematik</SelectItem>
-                <SelectItem key="low_key" value="low_key">Low Key</SelectItem>
-                <SelectItem key="high_key" value="high_key">High Key</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="natural">Alami</SelectItem>
+                <SelectItem key="studio">Studio</SelectItem>
+                <SelectItem key="cinematic">Sinematik</SelectItem>
+                <SelectItem key="low_key">Low Key</SelectItem>
+                <SelectItem key="high_key">High Key</SelectItem>
               </Select>
             </div>
           </AccordionItem>
@@ -1966,21 +1966,21 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih bahasa"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="javascript" value="javascript">JavaScript</SelectItem>
-                <SelectItem key="python" value="python">Python</SelectItem>
-                <SelectItem key="java" value="java">Java</SelectItem>
-                <SelectItem key="csharp" value="csharp">C#</SelectItem>
-                <SelectItem key="php" value="php">PHP</SelectItem>
-                <SelectItem key="typescript" value="typescript">TypeScript</SelectItem>
-                <SelectItem key="swift" value="swift">Swift</SelectItem>
-                <SelectItem key="kotlin" value="kotlin">Kotlin</SelectItem>
-                <SelectItem key="go" value="go">Go</SelectItem>
-                <SelectItem key="ruby" value="ruby">Ruby</SelectItem>
-                <SelectItem key="rust" value="rust">Rust</SelectItem>
-                <SelectItem key="html" value="html">HTML</SelectItem>
-                <SelectItem key="css" value="css">CSS</SelectItem>
-                <SelectItem key="sql" value="sql">SQL</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="javascript">JavaScript</SelectItem>
+                <SelectItem key="python">Python</SelectItem>
+                <SelectItem key="java">Java</SelectItem>
+                <SelectItem key="csharp">C#</SelectItem>
+                <SelectItem key="php">PHP</SelectItem>
+                <SelectItem key="typescript">TypeScript</SelectItem>
+                <SelectItem key="swift">Swift</SelectItem>
+                <SelectItem key="kotlin">Kotlin</SelectItem>
+                <SelectItem key="go">Go</SelectItem>
+                <SelectItem key="ruby">Ruby</SelectItem>
+                <SelectItem key="rust">Rust</SelectItem>
+                <SelectItem key="html">HTML</SelectItem>
+                <SelectItem key="css">CSS</SelectItem>
+                <SelectItem key="sql">SQL</SelectItem>
               </Select>
               
               <Select 
@@ -1988,21 +1988,21 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih framework (opsional)"
                 className="font-apple"
               >
-                <SelectItem key="none" value="none">Tidak Ada</SelectItem>
-                <SelectItem key="react" value="react">React</SelectItem>
-                <SelectItem key="vue" value="vue">Vue.js</SelectItem>
-                <SelectItem key="angular" value="angular">Angular</SelectItem>
-                <SelectItem key="nodejs" value="nodejs">Node.js</SelectItem>
-                <SelectItem key="express" value="express">Express.js</SelectItem>
-                <SelectItem key="django" value="django">Django</SelectItem>
-                <SelectItem key="flask" value="flask">Flask</SelectItem>
-                <SelectItem key="spring" value="spring">Spring Boot</SelectItem>
-                <SelectItem key="laravel" value="laravel">Laravel</SelectItem>
-                <SelectItem key="dotnet" value="dotnet">.NET</SelectItem>
-                <SelectItem key="rails" value="rails">Ruby on Rails</SelectItem>
-                <SelectItem key="nextjs" value="nextjs">Next.js</SelectItem>
-                <SelectItem key="nuxtjs" value="nuxtjs">Nuxt.js</SelectItem>
-                <SelectItem key="svelte" value="svelte">Svelte</SelectItem>
+                <SelectItem key="none">Tidak Ada</SelectItem>
+                <SelectItem key="react">React</SelectItem>
+                <SelectItem key="vue">Vue.js</SelectItem>
+                <SelectItem key="angular">Angular</SelectItem>
+                <SelectItem key="nodejs">Node.js</SelectItem>
+                <SelectItem key="express">Express.js</SelectItem>
+                <SelectItem key="django">Django</SelectItem>
+                <SelectItem key="flask">Flask</SelectItem>
+                <SelectItem key="spring">Spring Boot</SelectItem>
+                <SelectItem key="laravel">Laravel</SelectItem>
+                <SelectItem key="dotnet">.NET</SelectItem>
+                <SelectItem key="rails">Ruby on Rails</SelectItem>
+                <SelectItem key="nextjs">Next.js</SelectItem>
+                <SelectItem key="nuxtjs">Nuxt.js</SelectItem>
+                <SelectItem key="svelte">Svelte</SelectItem>
               </Select>
             </div>
             
@@ -2037,12 +2037,12 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih gaya kode"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="oop" value="oop">Berorientasi Objek (OOP)</SelectItem>
-                <SelectItem key="functional" value="functional">Fungsional</SelectItem>
-                <SelectItem key="procedural" value="procedural">Prosedural</SelectItem>
-                <SelectItem key="declarative" value="declarative">Deklaratif</SelectItem>
-                <SelectItem key="imperative" value="imperative">Imperatif</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="oop">Berorientasi Objek (OOP)</SelectItem>
+                <SelectItem key="functional">Fungsional</SelectItem>
+                <SelectItem key="procedural">Prosedural</SelectItem>
+                <SelectItem key="declarative">Deklaratif</SelectItem>
+                <SelectItem key="imperative">Imperatif</SelectItem>
               </Select>
               
               <Select 
@@ -2050,11 +2050,11 @@ export const PromptGenerator: React.FC = () => {
                 placeholder="Pilih tingkat komentar"
                 className="font-apple"
               >
-                <SelectItem key="auto" value="auto">Otomatis</SelectItem>
-                <SelectItem key="none" value="none">Tanpa Komentar</SelectItem>
-                <SelectItem key="minimal" value="minimal">Minimal</SelectItem>
-                <SelectItem key="detailed" value="detailed">Detail</SelectItem>
-                <SelectItem key="docstrings" value="docstrings">Dengan Docstrings</SelectItem>
+                <SelectItem key="auto">Otomatis</SelectItem>
+                <SelectItem key="none">Tanpa Komentar</SelectItem>
+                <SelectItem key="minimal">Minimal</SelectItem>
+                <SelectItem key="detailed">Detail</SelectItem>
+                <SelectItem key="docstrings">Dengan Docstrings</SelectItem>
               </Select>
             </div>
             
